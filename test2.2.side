@@ -1,0 +1,54 @@
+{
+  "id": "31cd8d6e-01a5-45c0-b526-6cfec3d456d3",
+  "version": "2.0",
+  "name": "test2.2",
+  "url": "https://mail.rediff.com",
+  "tests": [{
+    "id": "316927a2-5cb6-4fe9-bfa7-901e72c8a7f7",
+    "name": "test2.2",
+    "commands": [{
+      "id": "fd794e95-5a34-46b9-af41-cbba914dcb16",
+      "comment": "",
+      "command": "open",
+      "target": "/cgi-bin/login.cgi",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de53450d-d172-48f8-b864-d3d371930edc",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1366x728",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "25c98b52-4bbe-4181-8f30-04aa5ad964ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=proceed",
+      "targets": [
+        ["name=proceed", "name"],
+        ["css=.signinbtn", "css:finder"],
+        ["xpath=//input[@name='proceed']", "xpath:attributes"],
+        ["xpath=//div/input[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fb7e8e26-fd7b-4b46-a2ab-51fc20211ff4",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please enter a valid user name",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "6f537bbf-7780-4061-a4a1-6129602aa0f0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["316927a2-5cb6-4fe9-bfa7-901e72c8a7f7"]
+  }],
+  "urls": ["https://mail.rediff.com/"],
+  "plugins": []
+}

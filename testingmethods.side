@@ -1,0 +1,151 @@
+{
+  "id": "e2cd2cdb-08c7-4be2-9c10-3fbf0f81c3cd",
+  "version": "2.0",
+  "name": "testingmethods",
+  "url": "https://www.google.com",
+  "tests": [{
+    "id": "fdad336f-fcc2-47ea-aee5-ca3cc557b8c3",
+    "name": "LAB1",
+    "commands": [{
+      "id": "dc9c7aea-a47e-4766-9301-37a2cdfffa50",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "68c5e6c7-5171-4834-801f-747ec3184f17",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "920x475",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b602c35b-194e-4bc8-b474-d58076c6cc5d",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_1a",
+      "targets": [
+        ["css=.gb_1a", "css:finder"],
+        ["xpath=//div[@id='gb']/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "78613e9b-a277-47cd-b233-2ff80197e943",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_1a",
+      "targets": [
+        ["css=.gb_1a", "css:finder"],
+        ["xpath=//div[@id='gb']/div/div[2]/div[2]/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://accounts.google.com/SignOutOptions?hl=en&continue=https://www.google.com/')]", "xpath:href"],
+        ["xpath=//div[2]/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e7ea2f98-2dd0-4861-a7d1-ba7021ae2a77",
+      "comment": "",
+      "command": "click",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "712d97b7-6e39-490c-b2be-12caa23b2ffc",
+      "comment": "",
+      "command": "type",
+      "target": "id=APjFqb",
+      "targets": [
+        ["id=APjFqb", "id"],
+        ["name=q", "name"],
+        ["css=#APjFqb", "css:finder"],
+        ["xpath=//textarea[@id='APjFqb']", "xpath:attributes"],
+        ["xpath=//textarea", "xpath:position"]
+      ],
+      "value": "testing methods"
+    }, {
+      "id": "da9d65b2-3cab-49ee-b0f9-0e26e0e9cbc9",
+      "comment": "",
+      "command": "click",
+      "target": "css=#jZ2SBf b",
+      "targets": [
+        ["css=#jZ2SBf b", "css:finder"],
+        ["xpath=//div[@id='jZ2SBf']/div/span/b", "xpath:idRelative"],
+        ["xpath=//b", "xpath:position"],
+        ["xpath=//b[contains(.,' in software testing')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2e7012cc-fefd-4130-bfa1-dc2926a9183d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7d4e296-cae6-440a-832a-411716821f67",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,300)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "92a108eb-d5cc-49e8-b747-6ca860b9e07b",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,1000)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5bcdd168-7e6b-476b-8bb9-3868a2410c64",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,2100)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ddcaa01d-8a4c-41c0-ae9f-ec95ebfeb470",
+      "comment": "",
+      "command": "click",
+      "target": "css=.hlcw0c:nth-child(1) .LC20lb",
+      "targets": [
+        ["css=.hlcw0c:nth-child(1) .LC20lb", "css:finder"],
+        ["xpath=//div[@id='rso']/div/div/div/div/div/div/a/h3", "xpath:idRelative"],
+        ["xpath=//h3", "xpath:position"],
+        ["xpath=//h3[contains(.,'Software Testing - Methods - Tutorialspoint')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b4c5df27-be9c-4f7f-bba5-3b05d0518e3a",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,800)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0d90e1f0-d069-4c97-9212-f78069f866a9",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,104)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "368b7981-4296-448d-8c1a-8f70cb4692a1",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["fdad336f-fcc2-47ea-aee5-ca3cc557b8c3"]
+  }],
+  "urls": ["https://www.google.com/"],
+  "plugins": []
+}

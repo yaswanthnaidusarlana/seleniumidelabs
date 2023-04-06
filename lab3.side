@@ -1,0 +1,123 @@
+{
+  "id": "bac2055a-d430-410d-bc35-c1ffdb4de008",
+  "version": "2.0",
+  "name": "lab3",
+  "url": "https://demo.opencart.com",
+  "tests": [{
+    "id": "5a56dbd3-e399-4aa8-bf30-28dc039f3db2",
+    "name": "lab3",
+    "commands": [{
+      "id": "941fde04-d87a-47a9-8b15-60e400480c68",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7460561e-564c-440b-ac8a-d75e7f4d4024",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c93cf4a0-46eb-4978-aeab-0f3e70b53e3e",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cameras",
+      "targets": [
+        ["linkText=Cameras", "linkText"],
+        ["css=.nav-item:nth-child(7) > .nav-link", "css:finder"],
+        ["xpath=(//a[contains(text(),'Cameras')])[2]", "xpath:link"],
+        ["xpath=//div[@id='narbar-menu']/ul/li[7]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://demo.opencart.com/index.php?route=product/category&language=en-gb&path=33')]", "xpath:href"],
+        ["xpath=//li[7]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d8f3851c-7909-4303-b693-c8ff5bd152a2",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "id=button-grid",
+      "targets": [
+        ["id=button-grid", "id"],
+        ["css=#button-grid", "css:finder"],
+        ["xpath=//button[@id='button-grid']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3b49043f-ff1d-4c84-a8d0-0113ef5a88ca",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "id=button-grid",
+      "targets": [
+        ["id=button-grid", "id"],
+        ["css=#button-grid", "css:finder"],
+        ["xpath=//button[@id='button-grid']", "xpath:attributes"],
+        ["xpath=//div[@id='display-control']/div[2]/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "38408018-9d44-4183-8480-ee5c1f3b4d37",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col:nth-child(1) button:nth-child(2)",
+      "targets": [
+        ["css=.col:nth-child(1) button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "561ec94e-3d8b-40b0-8753-abc8d255f17f",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.col:nth-child(1) button:nth-child(2)",
+      "targets": [
+        ["css=.col:nth-child(1) button:nth-child(2)", "css:finder"],
+        ["xpath=(//button[@type='submit'])[2]", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button[2]", "xpath:idRelative"],
+        ["xpath=//div[2]/button[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7a4914da-108a-4fc9-9ae9-906a3a5e6127",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.col:nth-child(1) button:nth-child(1)",
+      "targets": [
+        ["css=.col:nth-child(1) button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dae82f6-4369-4b44-85ad-ded255fbf1be",
+      "comment": "",
+      "command": "click",
+      "target": "css=.col:nth-child(1) button:nth-child(1)",
+      "targets": [
+        ["css=.col:nth-child(1) button:nth-child(1)", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//div[@id='product-list']/div/form/div/div[2]/div[2]/button", "xpath:idRelative"],
+        ["xpath=//div[2]/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "ead134f5-2f78-4435-89dd-07c9936a72b4",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["5a56dbd3-e399-4aa8-bf30-28dc039f3db2"]
+  }],
+  "urls": ["https://demo.opencart.com/"],
+  "plugins": []
+}

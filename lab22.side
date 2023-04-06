@@ -1,0 +1,21 @@
+{
+  "id": "c3fc1e9b-dc02-4d5c-9864-19f7275ce6f9",
+  "version": "2.0",
+  "name": "lab22",
+  "url": "",
+  "tests": [{
+    "id": "c4998f9a-4d9a-4c18-b1b3-bf78849c2371",
+    "name": "lab22",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "b8dfddbc-863d-4f8f-a233-8fd33e5cdd73",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["c4998f9a-4d9a-4c18-b1b3-bf78849c2371"]
+  }],
+  "urls": [],
+  "plugins": []
+}
